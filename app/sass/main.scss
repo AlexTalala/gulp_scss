@@ -1,0 +1,89 @@
+@import "mixins";
+@import "fonts";
+@import "icons";
+@import "libs";
+@import "vars";
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &:before, &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+*::-webkit-input-placeholder {
+  color: $black;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: $black;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: $black;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: $black;
+  opacity: 1;
+}
+
+*:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+*:focus::-moz-placeholder {
+  color: transparent;
+}
+
+*:focus:-moz-placeholder {
+  color: transparent;
+}
+
+*:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: $default-font;
+  font-size: 16px;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0 auto;
+  position: relative;
+  line-height: 1.6;
+  overflow-x: hidden;
+  opacity: 1;
+  color: $black;
+}
+
+
+
+@import "media";
+
+

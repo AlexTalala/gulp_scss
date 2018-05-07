@@ -1,0 +1,9 @@
+// Fonts
+
+@include font-face(Roboto, fonts/Roboto-Thin/Roboto-Thin, 100, normal, eot woff);
+@include font-face(Roboto, fonts/Roboto-Light/Roboto-Light, 300, normal, eot woff);
+@include font-face(Roboto, fonts/Roboto-Regular/Roboto-Regular, 400, normal, eot woff);
+@include font-face(Roboto, fonts/Roboto-Medium/Roboto-Medium, 500, normal, eot woff);
+@include font-face(Roboto, fonts/Roboto-Bold/Roboto-Bold, 700, normal, eot woff);
+
+@include font-face(icomoon, fonts/icomoon/icomoon, eot ttf woff woff2);
